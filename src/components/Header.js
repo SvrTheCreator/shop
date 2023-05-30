@@ -5,10 +5,17 @@ import NavAccount from "./NavAccount"
 import { FaShoppingCart } from "react-icons/fa";
 import { MdAccountCircle } from "react-icons/md";
 import { Link } from 'react-router-dom'
+import { useDispatch } from "react-redux";
+import { showManItems, showWomanItems } from '../store/action'
+import { store } from '../index'
 
 export default function Header() {
 
-    // let [cartOpen, setCartOpen] = useState(false)
+
+
+    const showMan = () => {
+        store.dispatch(showManItems)
+    }
 
     return (
         <header>
@@ -20,7 +27,7 @@ export default function Header() {
                         </div>
                     </Link>
                     <ul className='nav' >
-                        <Link to='/Man'>
+                        <Link to='/Man' onClick={showMan}>
                             <li className='nav_men'><span>Мужское</span>
                                 <NavMan />
                             </li>

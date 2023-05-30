@@ -2,7 +2,7 @@ import '../styles/index.css'
 import Header from "./Header";
 import Telegram from "./Telegram";
 import Footer from "./Footer";
-// import Items from "./Items";
+import Items from "./Items";
 // import { state } from '../Constants'
 import { Routes, Route } from 'react-router-dom'
 import Authorization from './Authorization';
@@ -16,7 +16,7 @@ function App() {
     <div className="wrapper">
       <Header />
       <Routes>
-        {/* <Route path='/Man' element={<Items itemsMan={state.itemsMan} />} /> */}
+        <Route path='/Man' element={<Items />} />
         <Route path='/account' element={<Authorization />} />
       </Routes>
       <Telegram />

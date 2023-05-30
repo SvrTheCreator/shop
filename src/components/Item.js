@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default function Item(item) {
+    // console.log('item', item);
     return (
         <div className='item'>
             <div className='item-img'>
