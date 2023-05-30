@@ -1,0 +1,22 @@
+/* .wrapper {
+    width: 1000px;
+    margin: 15px auto;
+} */
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    outline: none;
+}

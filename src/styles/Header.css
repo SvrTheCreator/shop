@@ -1,0 +1,60 @@
+header {
+    background-color: #0d0d0d;
+    color: #ffffff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+header .logo {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+header a {
+    color: white;
+}
+
+header .nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav_men,
+.nav_women,
+.nav_contacts,
+.nav_account,
+.nav_basket {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    /* padding: 20px; */
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.nav_icon {
+    display: flex;
+    font-size: 26px;
+}
+
+li span:hover {
+    color: #ee6769;
+    transition: 0.5s ease;
+}
+
+li p:hover {
+    color: #67eee9;
+    transition: 0.5s ease;
+}

@@ -1,0 +1,46 @@
+.telegram {
+    height: 500px;
+    overflow: hidden;
+}
+
+.telegram .presentation {
+    background: url('../img/логотип\ 2.png')no-repeat;
+    width: 100%;
+    /* height: 500px; */
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #cccccc;
+    position: relative;
+    transition: transform 0.5s;
+}
+
+.telegram:hover .presentation {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* .telegram .presentation::after {
+    content: 'T.ME / JOSKA TEAM';
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width: 500px;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+} */
+
+.telegram .presentation::before {
+    content: 'Наш телеграм канал';
+    position: absolute;
+    /* top: 250px;
+    left: 420px; */
+    top: 3%;
+    left: 34%;
+    width: 500px;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,600&display=swap');
+@import 'App';
+@import 'Header';
+@import 'Footer';
+@import 'Telegram';
+@import 'Items';
+@import 'Nav';
+@import 'Authorization';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}

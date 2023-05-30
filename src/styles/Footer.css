@@ -1,0 +1,40 @@
+footer {
+    width: 100%;
+    background-color: #fafafa;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_logo {
+    margin: 30px;
+    /* display: inline-block; */
+    background: url('../img/белый\ черный\ без\ фона.png')no-repeat;
+    height: 300px;
+    width: 30%;
+    background-position: center;
+    background-size: 100%;
+}
+
+.footer_info {
+    height: 200px;
+    background-color: #444444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_info svg {
+    height: 50px;
+    width: 50px;
+    color: #fafafa;
+    margin: 50px;
+}
+
+.footer_info svg:hover {
+    color: #ee6769;
+    transition: 1s ease;
+}
